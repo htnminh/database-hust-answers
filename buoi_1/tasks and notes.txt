@@ -1,0 +1,14 @@
+a) Tạo CSDL có tên QLBongDa
+b) Tạo các bảng cho CSDL trên
+c) Nhập liệu cho các Table nói trên
+d) Thực hiện xóa các bảng đã tạo
+e) Thực hiện xóa Database đã tạo
+f) Tạo Database có tên QLBongDa.
+g) Tạo các Table CAUTHU, QUOCGIA, CAULACBO, TINH,
+HUANLUYENVIEN, SANVD, HLV_CLB, TRANDAU, BANGXH như mô tả
+ở trên.
+h) Xác định khóa chính, khóa ngoại cho các bảng trên.
+i) Tạo Relationsip (Diagram) trên các quan hệ cho cơ sở dữ liệu
+QLBongDa.
+j) Thực hiện Backup và Restore cơ sở dữ liệu QLBongDa
+nói trên.
