@@ -5,14 +5,14 @@ WHERE TRANDAU.MACLB1=CLB1.MACLB
     AND TRANDAU.MASAN=SANVD.MASAN
     AND (
         CLB1.MACLB IN (
-        SELECT MACLB
-        FROM BANGXH
-        WHERE VONG=3 AND HANG=1)
+            SELECT MACLB
+            FROM BANGXH
+            WHERE VONG=3 AND HANG=1)
     OR
         CLB2.MACLB IN (
-        SELECT MACLB
-        FROM BANGXH
-        WHERE VONG=3 AND HANG=1))
+            SELECT MACLB
+            FROM BANGXH
+            WHERE VONG=3 AND HANG=1))
 
 -- test
 SELECT *
