@@ -86,15 +86,15 @@
 SET IDENTITY_INSERT dbo.CAUTHU ON
 INSERT INTO dbo.CAUTHU(MACT, HOTEN, VITRI, NGAYSINH, DIACHI, MACLB, MAQG, SO)
 VALUES
-    (1, 'Nguyễn Vũ Phong', 'Tiền vệ', '02/20/1990', NULL, 'BBD', 'VN', 17),
-    (2, 'Nguyễn Công Vinh', 'Tiền đạo', '03/10/1992', NULL, 'HAGL', 'VN', 9),
-    (4, 'Trần Tấn Tài', 'Tiền vệ', '11/12/1989', NULL, 'BBD', 'VN', 8),
-    (5, 'Phan Hồng Sơn', 'Thủ môn', '06/10/1991', NULL, 'HAGL', 'VN', 1),
-    (6, 'Ronaldo', 'Tiền vệ', '12/12/1989', NULL, 'SDN', 'BRA', 7),
-    (7, 'Robinho', 'Tiền vệ', '10/12/1989', NULL, 'SDN', 'BRA', 8),
-    (8, 'Vidic', 'Hậu vệ', '10/15/1987', NULL, 'HAGL', 'ANH', 3),
-    (9, 'Trần Văn Santos', 'Thủ môn', '10/21/1990', NULL, 'BBD', 'BRA', 1),
-    (10, 'Nguyễn Trường Sơn', 'Hậu vệ', '08/26/1993', NULL, 'BBD', 'VN', 4)
+    (1, N'Nguyễn Vũ Phong', N'Tiền vệ', '02/20/1990', NULL, 'BBD', 'VN', 17),
+    (2, N'Nguyễn Công Vinh', N'Tiền đạo', '03/10/1992', NULL, 'HAGL', 'VN', 9),
+    (4, N'Trần Tấn Tài', N'Tiền vệ', '11/12/1989', NULL, 'BBD', 'VN', 8),
+    (5, N'Phan Hồng Sơn', N'Thủ môn', '06/10/1991', NULL, 'HAGL', 'VN', 1),
+    (6, N'Ronaldo', N'Tiền vệ', '12/12/1989', NULL, 'SDN', 'BRA', 7),
+    (7, N'Robinho', N'Tiền vệ', '10/12/1989', NULL, 'SDN', 'BRA', 8),
+    (8, N'Vidic', N'Hậu vệ', '10/15/1987', NULL, 'HAGL', 'ANH', 3),
+    (9, N'Trần Văn Santos', N'Thủ môn', '10/21/1990', NULL, 'BBD', 'BRA', 1),
+    (10, N'Nguyễn Trường Sơn', N'Hậu vệ', '08/26/1993', NULL, 'BBD', 'VN', 4)
 SET IDENTITY_INSERT CAUTHU OFF
 
 -- insert the following values
@@ -117,13 +117,13 @@ SET IDENTITY_INSERT CAUTHU OFF
 
 INSERT INTO QUOCGIA
 VALUES
-    ('VN', 'Việt Nam'),
-    ('ANH', 'Anh Quốc'),
-    ('TBN', 'Tây Ban Nha'),
-    ('BDN', 'Bồ Đào Nha'),
-    ('BRA', 'Bra-xin'),
-    ('ITA', 'Y'),
-    ('THA', 'Thái Lan')
+    ('VN', N'Việt Nam'),
+    ('ANH', N'Anh Quốc'),
+    ('TBN', N'Tây Ban Nha'),
+    ('BDN', N'Bồ Đào Nha'),
+    ('BRA', N'Bra-xin'),
+    ('ITA', N'Y'),
+    ('THA', N'Thái Lan')
 
 -- insert the following values
 -- MACLB BBD
@@ -154,12 +154,12 @@ VALUES
 
 INSERT INTO CAULACBO
 VALUES
-    ('BBD', 'BECAMEX BÌNH DƯƠNG', 'GD', 'BD'),
-    ('HAGL', 'HOÀNG ANH GIA LAI', 'PL', 'GL'),
-    ('SDN', 'SHB DA NANG', 'CL', 'DN'),
-    ('KKH', 'KHATOCO KHÁNH HÒA', 'NT', 'KH'),
-    ('TPY', 'THÉP PHÚ YÊN', 'TH', 'PY'),
-    ('GDT', 'GẠCH ĐỒNG TÂM LONG AN', 'LA', 'LA')
+    ('BBD', N'BECAMEX BÌNH DƯƠNG', 'GD', 'BD'),
+    ('HAGL', N'HOÀNG ANH GIA LAI', 'PL', 'GL'),
+    ('SDN', N'SHB DA NANG', 'CL', 'DN'),
+    ('KKH', N'KHATOCO KHÁNH HÒA', 'NT', 'KH'),
+    ('TPY', N'THÉP PHÚ YÊN', 'TH', 'PY'),
+    ('GDT', N'GẠCH ĐỒNG TÂM LONG AN', 'LA', 'LA')
 
 -- insert the following values
 -- MATINH
@@ -179,12 +179,12 @@ VALUES
 
 INSERT INTO TINH
 VALUES
-    ('BD', 'Bình Dương'),
-    ('GL', 'Gia Lai'),
-    ('DN', 'Đà Nẵng'),
-    ('KH', 'Khánh Hòa'),
-    ('PY', 'Phú Yên'),
-    ('LA', 'Long An')
+    ('BD', N'Bình Dương'),
+    ('GL', N'Gia Lai'),
+    ('DN', N'Đà Nẵng'),
+    ('KH', N'Khánh Hòa'),
+    ('PY', N'Phú Yên'),
+    ('LA', N'Long An')
 
 -- insert the following values
 -- MAHLV
@@ -227,12 +227,12 @@ VALUES
 
 INSERT INTO HUANLUYENVIEN
 VALUES
-    ('HLV01', 'Vital', '10/15/1955', NULL, '0918011075', 'BDN'),
-    ('HLV02', 'Lê Huỳnh Đức', '05/20/1972', NULL, '01223456789', 'VN'),
-    ('HLV03', 'Kiatisuk', '12/11/1970', NULL, '01990123456', 'THA'),
-    ('HLV04', 'Hoàng Anh Tuấn', '06/10/1970', NULL, '0989112233', 'VN'),
-    ('HLV05', 'Trần Công Minh', '07/07/1973', NULL, '0909099990', 'VN'),
-    ('HLV06', 'Trần Văn Phúc', '03/02/1965', NULL, '01650101234', 'VN')
+    ('HLV01', N'Vital', '10/15/1955', NULL, N'0918011075', 'BDN'),
+    ('HLV02', N'Lê Huỳnh Đức', '05/20/1972', NULL, N'01223456789', 'VN'),
+    ('HLV03', N'Kiatisuk', '12/11/1970', NULL, N'01990123456', 'THA'),
+    ('HLV04', N'Hoàng Anh Tuấn', '06/10/1970', NULL, N'0989112233', 'VN'),
+    ('HLV05', N'Trần Công Minh', '07/07/1973', NULL, N'0909099990', 'VN'),
+    ('HLV06', N'Trần Văn Phúc', '03/02/1965', NULL, N'01650101234', 'VN')
 
 -- insert the following values
 -- MASAN
@@ -254,12 +254,12 @@ VALUES
 
 INSERT INTO SANVD
 VALUES
-    ('GD', 'Gò Đậu', '123 QL1, TX Thủ Dầu Một, Bình Dương'),
-    ('PL', 'Pleiku', '22 Hồ Tùng Mậu, Thống Nhất, Thị xã Pleiku, Gia Lai'),
-    ('CL', 'Chi Lăng', '127 Võ Văn Tần, Đà Nẵng'),
-    ('NT', 'Nha Trang', '128 Phan Chu Trinh, Nha Trang, Khánh Hòa'),
-    ('TH', 'Tuy Hòa', '57 Trường Chinh, Tuy Hòa, Phú Yên'),
-    ('LA', 'Long An', '102 Hùng Vương, Tp Tân An, Long An')
+    ('GD', N'Gò Đậu', N'123 QL1, TX Thủ Dầu Một, Bình Dương'),
+    ('PL', N'Pleiku', N'22 Hồ Tùng Mậu, Thống Nhất, Thị xã Pleiku, Gia Lai'),
+    ('CL', N'Chi Lăng', N'127 Võ Văn Tần, Đà Nẵng'),
+    ('NT', N'Nha Trang', N'128 Phan Chu Trinh, Nha Trang, Khánh Hòa'),
+    ('TH', N'Tuy Hòa', N'57 Trường Chinh, Tuy Hòa, Phú Yên'),
+    ('LA', N'Long An', N'102 Hùng Vương, Tp Tân An, Long An')
 
 -- insert the following values
 -- MAHLV
@@ -286,12 +286,12 @@ VALUES
 
 INSERT INTO HLV_CLB
 VALUES
-    ('HLV01', 'BBD', 'HLV Chính'),
-    ('HLV02', 'SDN', 'HLV Chính'),
-    ('HLV03', 'HAGL', 'HLV Chính'),
-    ('HLV04', 'KKH', 'HLV Chính'),
-    ('HLV05', 'GDT', 'HLV Chính'),
-    ('HLV06', 'BBD', 'HLV thủ môn')
+    ('HLV01', 'BBD', N'HLV Chính'),
+    ('HLV02', 'SDN', N'HLV Chính'),
+    ('HLV03', 'HAGL', N'HLV Chính'),
+    ('HLV04', 'KKH', N'HLV Chính'),
+    ('HLV05', 'GDT', N'HLV Chính'),
+    ('HLV06', 'BBD', N'HLV thủ môn')
 
 -- insert the following values
 -- MATRAN NAM VONG NGAYTD MACLB1
