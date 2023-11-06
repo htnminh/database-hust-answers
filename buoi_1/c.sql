@@ -156,7 +156,7 @@ INSERT INTO CAULACBO
 VALUES
     ('BBD', N'BECAMEX BÌNH DƯƠNG', 'GD', 'BD'),
     ('HAGL', N'HOÀNG ANH GIA LAI', 'PL', 'GL'),
-    ('SDN', N'SHB DA NANG', 'CL', 'DN'),
+    ('SDN', N'SHB ĐÀ NẴNG', 'CL', 'DN'),
     ('KKH', N'KHATOCO KHÁNH HÒA', 'NT', 'KH'),
     ('TPY', N'THÉP PHÚ YÊN', 'TH', 'PY'),
     ('GDT', N'GẠCH ĐỒNG TÂM LONG AN', 'LA', 'LA')
