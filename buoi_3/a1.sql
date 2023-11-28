@@ -9,14 +9,14 @@ WHERE MONTH(NGAYTD)=3
                 SELECT MASAN
                 FROM CAULACBO
                 WHERE MACLB=MACLB1)
-            AND SUBSTRING(KETQUA, 3, 1)='0'
+            AND KETQUA LIKE '%-0'
             )
         OR (
             TD.MASAN IN (
                 SELECT MASAN
                 FROM CAULACBO
                 WHERE MACLB=MACLB2)
-            AND SUBSTRING(KETQUA, 1, 1)='0'
+            AND KETQUA LIKE '0-%'
             )
     )
 
