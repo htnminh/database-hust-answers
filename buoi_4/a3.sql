@@ -1,0 +1,9 @@
+DECLARE @s1 as FLOAT
+DECLARE @s2 as FLOAT
+DECLARE @tg AS FLOAT
+
+SET @s1 = 0.14
+SET @s2 = 3
+SET @tg = @s1 + @s2
+
+PRINT N'Tổng là: ' + CAST(@tg AS VARCHAR)

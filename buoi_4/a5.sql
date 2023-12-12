@@ -1,0 +1,12 @@
+DECLARE @s1 as FLOAT
+DECLARE @s2 as FLOAT
+DECLARE @min AS FLOAT
+DECLARE @max AS FLOAT
+
+SET @s1 = 0.14
+SET @s2 = 3
+SET @min = LEAST(@s1, @s2)
+SET @max = GREATEST(@s1, @s2)
+
+PRINT @min
+PRINT @max
